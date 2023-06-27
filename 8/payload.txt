@@ -1,0 +1,1 @@
+AND ASCII(SUBSTR(DATABASE(),1,1)) > 100; --+
